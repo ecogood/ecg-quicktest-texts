@@ -16,7 +16,12 @@
     "data"
   ],
   "author": "Nikolay Georgiev",
-  "license": "",
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/nikolayhg/ecg-data-quicktest/blob/master/LICENSE-MIT"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/nikolayhg/ecg-data-quicktest/issues"
   },
