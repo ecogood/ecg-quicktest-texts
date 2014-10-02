@@ -33,7 +33,7 @@ This module exports the data in the following form:
 
 Run the tests:
 
-``make test``
+``npm test``
 
 The data files and the module are tested with [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/).
 
@@ -68,7 +68,7 @@ To do this you can either:
 * collaborate through GitHub ([See how in this video](https://www.youtube.com/watch?v=SCZF6I-Rc4I#t=1m19s)):
   * fork the repository
   * translate the files
-  * If you can, run ``make test`` to make sure that the tests are still running successfully after your changes.
+  * If you can, run ``npm test`` to make sure that the tests are still running successfully after your changes.
   * send a pull request
 * email the translated files to the main developer, see below.
 
