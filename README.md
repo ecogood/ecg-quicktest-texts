@@ -8,6 +8,8 @@ This package contains the texts for the ECG quick test and tests to validate the
 
 ## Installation
 
+Requirements: Node.js 0.10.x
+
 ```
 npm install --save ecg-quicktest-texts
 ```
