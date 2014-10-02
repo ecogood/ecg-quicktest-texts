@@ -1,12 +1,12 @@
 ECG quick test data
 ==================
 
-This package contains the ECG quick test data and tests to validate it.
+This package contains the texts for the ECG quick test and tests to validate their proper structure.
 
 ## Installation
 
 ```
-npm install --save ecg-data-quicktest
+npm install --save ecg-quicktest-texts
 ```
 
 ## Data
@@ -34,16 +34,42 @@ The data files and the module are tested with [Mocha](http://visionmedia.github.
 
 ## Roadmap
 
-* :white_check_mark: add German quick test data
-* :arrow_right: add English quick test data
+* :white_check_mark: add German texts.
+* :arrow_right: add English translation.
+* add Spanish translation.
 
 ## Contributing
 
 Feel free to contribute to the Roadmap or otherwise.
 
+### Translation
+
+All texts for a single language are contained in single file ``data/quicktest-texts.<lang>.json``.
+
+If you want to help with translating the texts:
+
+* if a file with the desired language does not exist in the ``data/`` folder, create it.
+* open the file for translation and
+  * you will see a lot of data in the format ``<key>: <value>`` (e.g. ``"name": "Schnelltest Gemeinwohl-Ökonomie"``)  
+  * do not translate any keys.
+  * translate all values, except those belonging to the following keys:
+    * ``matrixVersion``
+    * ``structure.participants.type``
+    * ``structure.individualAnswer.evaluationValues.value``
+    * ``structure.result.feedback.minValue/maxValue``
+    * ``test.questions.stakeholders/ecgValue``
+
+To do this you can either:
+* collaborate through GitHub ([See how in this video](https://www.youtube.com/watch?v=SCZF6I-Rc4I#t=1m19s)):
+  * fork the repository
+  * translate the files
+  * If you can run ``make test`` to make sure that the tests are still running successfully after your changes.
+  * send a pull request
+* email the translated to the main developer, see below.
+
 ### Issues and Features
 
-Feel free to share issues and desired features [in GitHub](https://github.com/nikolayhg/ecg-data-quicktest/issues).
+Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-quicktest-texts/issues).
 
 ## License
 
@@ -52,8 +78,9 @@ Feel free to share issues and desired features [in GitHub](https://github.com/ni
 
 ## Developers
 
-* [Nikolay Georgiev](http://nikolay-georgiev.net/), ECG Berlin.
+* [Nikolay Georgiev](http://nikolay-georgiev.net/), main developer, ECG Berlin.
 
 ## Release History
 
+* 0.0.2 - Simplified the JSON structure, moved the repository to the new ECG GitHub account, updated collaboration info.
 * 0.0.1 - Added german quick test data and few tests.
