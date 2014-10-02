@@ -65,7 +65,7 @@ To do this you can either:
   * translate the files
   * If you can run ``make test`` to make sure that the tests are still running successfully after your changes.
   * send a pull request
-* email the translated to the main developer, see below.
+* email the translated files to the main developer, see below.
 
 ### Issues and Features
 
