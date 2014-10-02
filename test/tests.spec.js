@@ -28,11 +28,6 @@ describe('Result Object', function() {
     expect(data.en).to.exist;
   });
 
-  it('should have translated names of the quick test', function() {
-    expect(data.de.name).to.equal('Schnelltest Gemeinwohl-Ökonomie');
-    expect(data.en.name).to.equal('ECG Quick Test');
-  });
-
   it('should contain 27 questions', function() {
     expect(data.de.test.questions.length).to.equal(27);
     expect(data.en.test.questions.length).to.equal(27);
