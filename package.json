@@ -1,14 +1,14 @@
 {
-  "name": "ecg-data-quicktest",
-  "version": "0.0.1",
-  "description": "ECG quicktest data",
+  "name": "ecg-quicktest-texts",
+  "version": "0.0.2",
+  "description": "The texts for the ECG quick test",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikolayhg/ecg-data-quicktest.git"
+    "url": "https://github.com/ecogood/ecg-quicktest-texts"
   },
   "keywords": [
     "ecg",
@@ -19,13 +19,13 @@
   "license": [
     {
       "type": "MIT",
-      "url": "http://github.com/nikolayhg/ecg-data-quicktest/blob/master/LICENSE-MIT"
+      "url": "http://github.com/ecogood/ecg-quicktest-texts/blob/master/LICENSE-MIT"
     }
   ],
   "bugs": {
-    "url": "https://github.com/nikolayhg/ecg-data-quicktest/issues"
+    "url": "https://github.com/ecogood/ecg-quicktest-texts/issues"
   },
-  "homepage": "https://github.com/nikolayhg/ecg-data-quicktest",
+  "homepage": "https://github.com/ecogood/ecg-quicktest-texts",
   "devDependencies": {
     "chai": "^1.9.2",
     "mocha": "^1.21.4"
