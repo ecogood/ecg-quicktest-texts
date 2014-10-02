@@ -3,6 +3,9 @@ ECG quick test data
 
 This package contains the texts for the ECG quick test and tests to validate their proper structure.
 
+### Status
+[![Build Status](https://travis-ci.org/ecogood/ecg-quicktest-texts.png)](https://travis-ci.org/ecogood/ecg-quicktest-texts)
+
 ## Installation
 
 ```
@@ -63,7 +66,7 @@ To do this you can either:
 * collaborate through GitHub ([See how in this video](https://www.youtube.com/watch?v=SCZF6I-Rc4I#t=1m19s)):
   * fork the repository
   * translate the files
-  * If you can run ``make test`` to make sure that the tests are still running successfully after your changes.
+  * If you can, run ``make test`` to make sure that the tests are still running successfully after your changes.
   * send a pull request
 * email the translated files to the main developer, see below.
 
@@ -82,5 +85,6 @@ Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-qui
 
 ## Release History
 
+* 0.0.3 - fixed tests and added travis CI
 * 0.0.2 - Simplified the JSON structure, moved the repository to the new ECG GitHub account, updated collaboration info.
 * 0.0.1 - Added german quick test data and few tests.
