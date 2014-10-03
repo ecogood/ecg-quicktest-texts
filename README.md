@@ -8,7 +8,9 @@ This package contains the texts for the ECG quick test and tests to validate the
 
 ## Installation
 
-Requirements: Node.js 0.10.x
+Requirements:
+
+* Node.js 0.10.x
 
 ```
 npm install --save ecg-quicktest-texts
@@ -49,7 +51,7 @@ Feel free to contribute to the Roadmap or otherwise.
 
 ### Translation
 
-All texts for a single language are contained in single file ``data/quicktest-texts.<lang>.json``.
+All texts for a single language are contained in single file ``data/quicktest-texts.<matrix-version>.<lang>.json``.
 
 If you want to help with translating the texts:
 
@@ -87,6 +89,7 @@ Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-qui
 
 ## Release History
 
-* 0.0.3 - fixed tests and added travis CI
+* 0.0.4 - added module tests and grunt.
+* 0.0.3 - fixed tests and added travis CI.
 * 0.0.2 - Simplified the JSON structure, moved the repository to the new ECG GitHub account, updated collaboration info.
 * 0.0.1 - Added german quick test data and few tests.
