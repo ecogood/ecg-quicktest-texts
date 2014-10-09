@@ -89,6 +89,7 @@ Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-qui
 
 ## Release History
 
+* 0.0.5 - add result level, remove app specific translations.
 * 0.0.4 - added module tests and grunt.
 * 0.0.3 - fixed tests and added travis CI.
 * 0.0.2 - Simplified the JSON structure, moved the repository to the new ECG GitHub account, updated collaboration info.

@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var expect = require('chai').expect;
 var data = require('../index');
@@ -8,9 +8,11 @@ describe('Data Files', function() {
 
   it('should have correct file names', function() {
 
-    var dataDir = "data/";
+    var dataDir = 'data/';
     fs.readdir(dataDir, function(err, fileNames) {
-      if (err) throw err;
+      if (err) {
+        throw err;
+      }
       for (var i = 0; i < fileNames.length; i++) {
         var fileName = fileNames[i];
         expect(fileName.slice(-5)).to.equal('.json');

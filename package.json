@@ -1,6 +1,6 @@
 {
   "name": "ecg-quicktest-texts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The texts for the ECG quick test",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "ecg",
     "commongood",
-    "data"
+    "quicktest",
+    "texts"
   ],
   "author": "Nikolay Georgiev",
   "license": [

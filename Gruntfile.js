@@ -8,8 +8,7 @@ module.exports = function(grunt) {
   // load all grunt tasks
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
-
-  // Projet configuration.
+  // Project configuration.
   grunt.initConfig({
 
     pkg: grunt.file.readJSON('package.json'),
