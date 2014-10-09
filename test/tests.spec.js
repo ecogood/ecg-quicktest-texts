@@ -54,7 +54,7 @@ describe('Module', function() {
     langs.forEach(function(lang){
       var participants = lang.structure.participants;
       participants.forEach(function(participant){
-        expect(['company', 'oneperson']).to.include(participant.type);
+        expect(['company', 'self-employed']).to.include(participant.type);
       });
     });
   });
@@ -69,23 +69,19 @@ describe('Module', function() {
     });
   });
 
-  it('should have correct structure.result.feedback.minValue/maxValue', function() {
+  it('should have correct structure.result.feedback.level', function() {
     langs.forEach(function(lang){
       var feedbacks = lang.structure.result.feedback;
       for (var i = 0; i < feedbacks.length; i++) {
         var feedback = feedbacks[i];
         if (i === 0) {
-          expect(feedback.minValue).to.equal(0);
-          expect(feedback.maxValue).to.equal(32);
+          expect(feedback.level).to.equal(0);
         } else if (i === 1) {
-          expect(feedback.minValue).to.equal(33);
-          expect(feedback.maxValue).to.equal(62);
+          expect(feedback.level).to.equal(1);
         } else if (i === 2) {
-          expect(feedback.minValue).to.equal(63);
-          expect(feedback.maxValue).to.equal(94);
+          expect(feedback.level).to.equal(2);
         } else if (i === 3) {
-          expect(feedback.minValue).to.equal(95);
-          expect(feedback.maxValue).to.equal(126);
+          expect(feedback.level).to.equal(3);
         }
       }
     });
