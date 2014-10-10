@@ -31,13 +31,17 @@ This module exports the data in the following form:
 }
 ```
 
-## Testing
-
-Run the tests:
-
-``npm test``
+## Tests
 
 The data files and the module are tested with [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/).
+
+### View the tests
+
+[Open the tests](test/tests.spec.js)
+
+### Run the tests
+
+``npm test``
 
 ## Roadmap
 
