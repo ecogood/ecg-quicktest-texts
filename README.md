@@ -84,7 +84,7 @@ Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-qui
 
 ## License
 
-* All files under ``data/`` contain texts from the Economy for the Common Good (ECG) movement which will be soon be released under a Creative Commons license.
+* All files under ``data/`` contain texts from the Economy for the Common Good (ECG) movement which are released under the Creative Commons Share Alike license.
 * All other files are under the MIT License.
 
 ## Developers
