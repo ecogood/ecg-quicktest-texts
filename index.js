@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var fs = require('fs');
 
@@ -7,14 +7,18 @@ var result = {
   langs: []
 };
 
-var dataDir = "data/";
+var dataDir = 'data/';
 fs.readdir(dataDir, function(err, fileNames) {
-  if (err) throw err;
+  if (err) {
+    throw err;
+  }
 
   fileNames.forEach(function(fileName) {
 
     fs.readFile(dataDir + fileName, function(err, data) {
-      if (err) throw err;
+      if (err) {
+        throw err;
+      }
 
       var lang = fileName.slice(-7, -5);
       var json = JSON.parse(data);
