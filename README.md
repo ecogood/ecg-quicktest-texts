@@ -67,7 +67,7 @@ If you want to help with translating the texts:
     * ``matrixVersion``
     * ``structure.participants.type``
     * ``structure.individualAnswer.evaluationValues.value``
-    * ``structure.result.feedback.minValue/maxValue``
+    * ``structure.result.feedback.level``
     * ``test.questions.stakeholders/ecgValue``
 
 To do this you can either:
