@@ -1,7 +1,3 @@
-/*
- * helper-lib
- * http://github.com/assemble/helper-lib
- */
 module.exports = function(grunt) {
   'use strict';
 
