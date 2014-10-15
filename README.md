@@ -93,6 +93,7 @@ Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-qui
 
 ## Release History
 
+* 0.0.8 - remove a double sentence in the German translation.
 * 0.0.6 - tests fixed.
 * 0.0.5 - add result level, remove app specific translations.
 * 0.0.4 - added module tests and grunt.
