@@ -1,10 +1,7 @@
-ECG quick test data
+ECG quick test data [![Build Status](https://travis-ci.org/ecogood/ecg-quicktest-texts.svg?branch=master)](https://travis-ci.org/ecogood/ecg-quicktest-texts)
 ==================
 
 This package contains the texts for the ECG quick test and tests to validate their proper structure.
-
-### Build Status
-[![Build Status](https://travis-ci.org/ecogood/ecg-quicktest-texts.svg?branch=master)](https://travis-ci.org/ecogood/ecg-quicktest-texts)
 
 ## Installation
 
