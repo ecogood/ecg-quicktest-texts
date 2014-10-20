@@ -1,4 +1,4 @@
-ECG quick test data [![Build Status](https://travis-ci.org/ecogood/ecg-quicktest-texts.svg?branch=master)](https://travis-ci.org/ecogood/ecg-quicktest-texts)
+ECG quick test data [![Build Status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url]
 ==================
 
 This package contains the texts for the ECG quick test and tests to validate their proper structure.
@@ -97,3 +97,8 @@ Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-qui
 * 0.0.3 - fixed tests and added travis CI.
 * 0.0.2 - Simplified the JSON structure, moved the repository to the new ECG GitHub account, updated collaboration info.
 * 0.0.1 - Added german quick test data and few tests.
+
+[travis-image]: https://travis-ci.org/ecogood/ecg-quicktest-texts.svg?branch=master
+[travis-url]: https://travis-ci.org/ecogood/ecg-quicktest-texts
+[npm-url]:  https://npmjs.org/package/ecg-quicktest-texts
+[npm-image]: http://img.shields.io/npm/v/ecg-quicktest-texts.svg?style=flat
