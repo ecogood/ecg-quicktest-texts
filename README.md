@@ -90,6 +90,7 @@ Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-qui
 
 ## Release History
 
+* 0.0.10 - add dot at the end of the pitch.
 * 0.0.9 - remove a double sentence in the German translation.
 * 0.0.6 - tests fixed.
 * 0.0.5 - add result level, remove app specific translations.
@@ -97,6 +98,7 @@ Share issues and desired features [in GitHub](https://github.com/ecogood/ecg-qui
 * 0.0.3 - fixed tests and added travis CI.
 * 0.0.2 - Simplified the JSON structure, moved the repository to the new ECG GitHub account, updated collaboration info.
 * 0.0.1 - Added german quick test data and few tests.
+
 
 [travis-image]: https://travis-ci.org/ecogood/ecg-quicktest-texts.svg?branch=master
 [travis-url]: https://travis-ci.org/ecogood/ecg-quicktest-texts
