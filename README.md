@@ -30,7 +30,7 @@ This module exports the data in the following form:
 
 ## Tests
 
-The data files and the module are tested with [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/).
+The data files and the module are tested with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).
 
 ### View the tests
 
